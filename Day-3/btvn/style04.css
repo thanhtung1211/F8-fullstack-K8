@@ -1,0 +1,80 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ===== Common ===== */
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* ===== Contact map ===== */
+
+nav {
+  margin-bottom: 12px;
+  display: flex;
+}
+
+.contact-map {
+  padding: 32px;
+}
+
+nav .country-list {
+  display: flex;
+  border: 1px solid rgb(186, 109, 46);
+  border-radius: 3px;
+}
+
+nav .country-list .country-item {
+  padding: 12px 24px;
+  text-align: center;
+  color: rgb(186, 109, 46);
+}
+
+nav .country-list .country-item:hover {
+  cursor: pointer;
+  color: white;
+  background-color: rgb(186, 109, 46);
+}
+
+/* ===== ADS Securities L.L.C ===== */
+.row {
+  display: flex;
+}
+
+.contact-info {
+  background-color: rgb(239, 234, 230);
+  padding: 30px 25px;
+  flex: 1;
+}
+
+.contact-info .info-list-1 {
+  margin-top: 16px;
+}
+
+.contact-info .info-list-2 {
+  margin-top: 16px;
+}
+
+.info-list-2 a {
+  color: rgb(186, 109, 46);
+}
+
+.row .location-company {
+  flex: 2;
+}

@@ -1,0 +1,115 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+/* ===== Common ===== */
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.row {
+  display: flex;
+}
+
+/* ===== Contact Us ===== */
+.contact-us {
+  padding: 8px;
+  margin-left: 24px;
+}
+
+.contact-us h1.title {
+  margin: 24px 0;
+}
+
+h1.title::after {
+  content: "";
+  display: block;
+  width: 65px;
+  height: 4px;
+  background-color: orange;
+  margin-top: 12px;
+  margin-left: 3px;
+}
+
+.contact-info h2 {
+  margin-bottom: 24px;
+  margin-left: 30px;
+  font-size: 2rem;
+}
+
+.list-info {
+  margin-left: 20px;
+}
+
+.list-info .info-item a:hover {
+  color: #333;
+}
+
+.list-info .info-item i {
+  margin-right: 8px;
+}
+
+.list-info .info-item {
+  padding: 4px;
+  margin-bottom: 4px;
+}
+
+.list-info .info-item a {
+  color: #000;
+}
+
+.list-info .info-item a:hover {
+  color: rgb(144, 132, 132);
+}
+
+/* ===== Contact Form ===== */
+
+.contact-form {
+  margin-left: 60px;
+}
+.contact-form h2 {
+  margin-bottom: 12px;
+  font-size: 1.8rem;
+}
+
+.contact-form form .input-name {
+  margin-bottom: 8px;
+}
+
+.contact-form form .input-name input,
+.contact-form form .input-name textarea {
+  padding: 5px;
+  width: 100%;
+}
+
+.contact-form .btn {
+  margin-top: 15px;
+  color: #fff;
+  background-color: #0d91a0;
+  padding: 12px 15px;
+  border: none;
+  border-radius: 2px;
+}
+
+.contact-form .btn:hover {
+  background-color: rgb(5, 177, 177);
+}
+
+.contact-form .btn:hover {
+  cursor: pointer;
+}

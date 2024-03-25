@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: Helvetica, sans-serif;
+}
+
+/* ===== Call To Us ===== */
+
+.call-to-us {
+  text-align: center;
+}
+
+.call-to-us h1 {
+  font-size: 4.5rem;
+  font-weight: 100;
+}
+
+.call-to-us strong {
+  color: #00aeef;
+  font-weight: 600;
+}
+
+.text-box {
+  font-weight: 100;
+  font-size: 2.5rem;
+  color: #fff;
+  background-color: #8598cc;
+  width: 190px;
+  height: 50px;
+  margin: 20px auto;
+  text-align: center;
+  padding: 12px;
+}
+
+.desc {
+  margin-top: 12px;
+}
+
+/* ===== BTN ===== */
+
+.btn-list {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.btn-list button {
+  border: none;
+  font-size: 1.7rem;
+  color: #fff;
+  background-color: #000;
+  border-radius: 5px;
+  display: inline-block;
+  height: 56px;
+  line-height: 56px;
+  min-width: 170px;
+  margin-left: 20px;
+}
