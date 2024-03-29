@@ -1,0 +1,100 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+/* ===== Best Seller ===== */
+
+.best-seller {
+  padding: 0 49px;
+}
+
+.title {
+  font-size: 4.8rem;
+  text-align: center;
+  margin-top: 24px;
+}
+
+/* ===== Category list ===== */
+
+.list {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin-top: 26px;
+}
+
+.list .category-item label {
+  padding: 8px 12px;
+  background-color: #f4f4f4;
+  margin: 0 7px;
+  cursor: pointer;
+  padding: 13px 15px;
+}
+
+.list .category-item label:hover {
+  color: #fff;
+  background-color: #28388d;
+}
+
+/* ===== Product list ===== */
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 65px;
+  padding: 0 24px;
+}
+
+.product-item {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 20%;
+  border: 1px solid #ccc;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  border-radius: 4px;
+}
+
+.product-item img {
+  max-width: 200px;
+  margin-bottom: 24px;
+}
+.product-item .product-rating i {
+  font-size: 1.4rem;
+  color: #9f9f9f;
+  margin-bottom: 12px;
+}
+.product-item .product-rating .rated {
+  color: #f4c242;
+}
+.product-item .title-2 {
+  color: #777777;
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+.product-item .product-price {
+  color: #464646;
+  font-size: 1.4rem;
+  font-weight: 800;
+}
+
+#product-haircare-list,
+#product-cosmetics-list,
+#product-fragrance-list,
+#product-makeup-list {
+  display: none;
+}

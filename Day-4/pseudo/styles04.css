@@ -1,0 +1,95 @@
+/* 
+Cú pháp: selector: name
+- active
+- hover
+- focus
+- disabled
+- checked: checkbox, radio
+- not 
+- first-child
+- last-child
+- first-of-type (Trong 1 thẻ cha)
+- last-of-type (Trong 1 thẻ cha)
+- nth-child
+- nth-of-type
+*/
+
+/* 
+    active, hover --> Có ở tất cả các thẻ html 
+    focus --> Chỉ có ở form 
+*/
+
+/* Ngoại lệ: Tất cả các thẻ HTML có thể có focus nếu thêm thuộc tính tab index */
+
+.btn:hover {
+  color: red;
+}
+
+.btn:active {
+  color: blueviolet;
+}
+
+.btn:focus {
+  color: blue;
+}
+
+/* Khi focus vào input sẽ đổi màu placeholder */
+input:focus::placeholder {
+  color: red;
+}
+/* Ngoại lệ */
+h1:focus {
+  color: red;
+}
+
+.btn:disabled:hover {
+  color: yellow;
+}
+
+input:read-only:focus::placeholder {
+  color: violet;
+}
+
+.checkboxes input:checked + span {
+  color: red;
+}
+
+/* .list li:not(.hide):not(.hidden) {
+  color: red;
+} */
+
+/* .list li:first-child {
+  color: red;
+} */
+
+/* .list li:last-of-type {
+  color: red;
+}
+
+.list li:last-child {
+  color: green;
+} */
+
+.list li:nth-of-type(1) {
+  color: green;
+}
+
+/* .red:checked ~ .content {
+  color: red;
+}
+.green:checked ~ .content {
+  color: green;
+}
+.blue:checked ~ .content {
+  color: blue;
+} */
+
+.box #red:checked ~ p {
+  color: red;
+}
+.box #green:checked ~ p {
+  color: green;
+}
+.box #blue:checked ~ p {
+  color: blue;
+}

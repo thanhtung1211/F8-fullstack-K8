@@ -1,0 +1,41 @@
+/* 
+    selector::name {
+        
+}
+
+- before: (inline) (content)
+- after: (inline) (content)
+- first-letter: CSS chữ cái đầu tiên
+- first-line: CSS dòng đầu tiên
+- selection: Bôi đen 
+- placeholder:   
+*/
+
+/* h1::before {
+  content: "A";
+}
+
+h1::after {
+  content: "B";
+} */
+
+p::first-letter {
+  color: red;
+}
+
+p::first-line {
+  color: green;
+}
+
+p::selection {
+  background: #000;
+  color: #fff;
+}
+
+input::placeholder {
+  color: red;
+}
+
+input {
+  color: red;
+}
