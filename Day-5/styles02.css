@@ -1,0 +1,42 @@
+/* Thay đổi font chữ
+font-family: tên font1, font2,....
+
+Font chữ có 2 loại: 
+- Font mặc định trên máy tính 
+- Font nạp từ bên ngoài
+
+Lưu ý: Nếu font chữ có khoảng trắng ---> Thêm dấu nháy (")
+
+sans-serif: Họ font không chân
+serif: Họ font có chân
+monospace: Họ font mono
+
+Trong 1 font chữ có 2 yếu tố để quy định kiểu
+- Độ dày: 100 --> 900 (Bội số của 100)
+- Nghiêng hay không?
+*/
+
+@font-face {
+  font-family: "lato";
+  src: url(../fonts/lato-light.ttf);
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "lato";
+  src: url(../fonts/Lato-Regular.ttf);
+  font-weight: 400;
+  font-style: bold;
+}
+@font-face {
+  font-family: "lato";
+  src: url(../fonts/Lato-Bold.ttf);
+  font-weight: 700;
+  font-style: italic;
+}
+
+body {
+  font-family: Lato, sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}

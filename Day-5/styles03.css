@@ -1,0 +1,47 @@
+/* 
+Thuộc tính text-decoration 
+
++ none
++ underline
++ overline 
++ line-through
+
+Thuộc tính text-transform: Chữ hoa, chữ thường
+
++ none 
++ upper 
++ lowercase
++ captitalize
+
+Thuộc tính letter-spacing: Khoảng cách chữ ( Kí tự ) 
+
+Thuộc tính word-spacing: Khoảng cách kí tự 
+
+Thuộc tính text align: 
+- left 
+- center 
+- right 
+- justify 
+ 
+Lưu ý: Thuộc tính này sẽ căn chỉnh các thẻ inline: img, button, input,....
+*/
+
+body {
+  /* text-decoration: underline line-through overline; */
+  /* text-transform: capitalize; */
+  /* letter-spacing: 2px; */
+  word-spacing: 5px;
+}
+
+h2 {
+  word-wrap: break-all;
+}
+
+p {
+  text-align: center;
+  text-align: right;
+}
+
+.link {
+  text-align: center;
+}

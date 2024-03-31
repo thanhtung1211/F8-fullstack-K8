@@ -1,0 +1,23 @@
+/* Thuộc tính Background
+
+1. background-color
+2. background-image 
+3. background-size
+4. background-position (Left = 0; center = 50%; right = 100%)
+5. background-repeat
+6. background-attachment
+7. background
+
+*/
+
+body {
+  height: 2000px;
+  background-color: aqua;
+  background-image: url("https://images.unsplash.com/photo-1711654106922-f44ee5df26ba?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+}
+
+/* .content {
+  background-color: bisque;
+} */

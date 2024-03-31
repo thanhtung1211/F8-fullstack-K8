@@ -1,0 +1,90 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #f2a93b;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+/* ===== Service-section ===== */
+
+.service-section .title {
+  text-align: center;
+  padding: 12px;
+}
+
+.service-section .desc {
+  text-align: center;
+}
+
+/* ===== Service List ===== */
+
+.list-service {
+  display: flex;
+  margin-top: 55px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 48px;
+  padding: 12px 16px;
+  justify-content: center;
+}
+
+.list-service .service-item {
+  max-width: 20%;
+  display: flex;
+  padding: 24px 12px;
+  margin: 0 12px;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.service-item .service-icon {
+  border: 1px solid var(--primary-color);
+  border-radius: 100%;
+  padding: 24px;
+  margin-bottom: 12px;
+  width: 120px;
+  height: 120px;
+  text-align: center;
+}
+
+.service-item .service-name {
+  padding: 6px 0;
+  font-size: 3.2rem;
+}
+
+.service-item .service-desc {
+  color: #a5a6ae;
+  text-align: center;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.service-item .service-icon i {
+  font-size: 6.4rem;
+  color: var(--primary-color);
+}
+
+.service-item .btn {
+  color: #ffffff;
+  margin-top: 16px;
+  padding: 12px 16px;
+  background-color: var(--primary-color);
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
