@@ -1,0 +1,23 @@
+/* 
+    Thuộc tính background-attachment: scroll 
+    fixed
+
+    Thuộc tính background: color image position / 
+    size repeat attachment
+*/
+
+body {
+  height: 2000px;
+}
+
+.banner {
+  height: 400px;
+  background-color: red;
+  /* background-image: url("https://images.unsplash.com/photo-1711998059965-65be05f23e59?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0fHx8ZW58MHx8fHx8");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; */
+  background: fixed
+    url("https://images.unsplash.com/photo-1711998059965-65be05f23e59?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0fHx8ZW58MHx8fHx8")
+    no-repeat 0 0 / cover red;
+}
