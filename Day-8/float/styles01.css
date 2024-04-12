@@ -1,0 +1,85 @@
+/* 
+Thuộc tính float: Trôi các thẻ html về phía bên trái hoặc bên phải thành phần cha 
+- none --> Mặc định 
+- left --> Trái
+- Right --> Phải
+
+Thuộc tính clear: Ngăn không cho các thẻ html tự động trôi theo float
+- none 
+- left 
+- right 
+- both
+Lưu ý: Chỉ hoạt động với thẻ block
+*/
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+img {
+  float: left;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+  shape-outside: circle();
+}
+
+.box {
+  width: 400px;
+  height: 300px;
+  border: 1px solid red;
+  padding: 15px;
+}
+
+.box::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.box button {
+  float: right;
+}
+
+/* 
+Counter CSS: Nhóm các thuộc tính để thực hiện đếm
+
+B1: Tạo bộ đếm
+B2: Đếm
+B3: Hiển thị kết quả đếm 
+*/
+
+body {
+  counter-reset: dem;
+}
+
+ul {
+  width: 300px;
+  margin: 30px auto;
+  list-style: none;
+  counter-reset: dem;
+}
+
+ul li {
+  clear: both;
+  line-height: 1.5;
+  counter-increment: dem;
+}
+
+ul li::before {
+  content: "#" counter(dem);
+  display: block;
+  background-color: green;
+  color: #fff;
+  width: 20px;
+  height: 20px;
+  float: left;
+  margin-right: 5px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 20px;
+}
